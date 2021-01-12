@@ -1,4 +1,4 @@
-# Full Stack Developerment Challenge
+# Full Stack Development Challenge
 
 ## The Roster - Synopsis
 
