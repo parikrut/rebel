@@ -21,13 +21,9 @@ Your minimum application requirements include:
 - A hosted MVC structure with separate front and back ends
 - Displaying the list in a web browser
 - Extending the list to include the calculated payout amount per artist
+- CRUD services for artists and rates
 - Adding a field to toggle (and persist) whether the artist payout is complete (eg: checkbox)
-
-Bonus features:
-
-- Add sorting by column (asc/desc)
-- Display a subset of data with the ability to show more (eg: "Load More" button, infinite scroll)
-- Filtering by the artist name
+- Display is sorted in descending order by payout amount
 
 ---
 
@@ -39,9 +35,9 @@ eg:
 
 - Front end: React, Angular, Vue.js, Vanilla JS, etc...
 - API: RESTful or GraphQL
-- Backend: PHP, .NET, Node.js, etc...
+- Backend: .NET, Node.js, PHP, etc...
 - Storage: S3, DB(SQL/NoSQL), etc...
-- Infrastructure: Docker, Serverless, etc..
+- Infrastructure: Docker, Serverless, Heroku, etc..
 
 ---
 
@@ -58,7 +54,7 @@ For example:
 **You will be measured on:**
 
 - Attention to detail
-- Documentation and instructions to run your application
+- Instructions to run your application
 - A very brief explanation of your choices throughout the challenge
 - Code quality
 - UI Design (if that's the focus you chose)
