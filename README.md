@@ -25,6 +25,9 @@ Your minimum application requirements include:
 - Adding a field to toggle (and persist) whether the artist payout is complete (eg: checkbox)
 - Display is sorted in descending order by payout amount
 
+Bonus
+- The artists are always asking about expected monthly payout. Add a column showing average payout per month. Assumptions: rate of streams per month is constant, for artists that predate streaming, assume streaming started with Spotify launch in April 2006.
+
 ---
 
 ## Technical Specs
