@@ -25,7 +25,7 @@ NB. We haven't specified and expected return on investment.  We'll leave that up
 
 Make the argument in any way you see fit - but we'd like to see it backed with evidence, opinion and foresight. A visualization or two would be a nice touch. Dont forget to state your assumptions. 
 
-We're pretty flexible on submissions but would expect at least a slide deck.  We'd also accept a data notebook like Jupyter, a dashboard, even a spreasheet. 
+We're pretty flexible on submissions but would expect at least a slide deck.  We'd also accept a data notebook like Jupyter, a dashboard, even a spreadsheet. 
 
 Have fun. 
 
