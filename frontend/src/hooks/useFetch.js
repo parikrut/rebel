@@ -1,5 +1,6 @@
 import { useQuery, useQueryClient } from "react-query";
 import axios from "axios";
+import server from "../config/server";
 
 export function useFetch({ type = "GET", url }) {
   const queryClient = useQueryClient();
@@ -8,10 +9,11 @@ export function useFetch({ type = "GET", url }) {
     async () => {
       var config = {
         method: type,
-        url,
-        // headers: {
-        //   Authorization: token,
-        // },
+        url: `${server}/${url}`,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+        },
       };
 
       let response, status;

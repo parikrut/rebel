@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useMutation, useQueryClient } from "react-query";
+import server from "../config/server";
 
 export function useRequest({ type = "POST", url }) {
   const queryClient = useQueryClient();
@@ -13,8 +14,12 @@ export function useRequest({ type = "POST", url }) {
     async (body) => {
       var config = {
         method: type,
-        url: `${url}/${body?.variables?.id ?? ""}`,
+        url: `${server}/${url}/${body?.variables?.id ?? ""}`,
         data: body?.data,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+        },
       };
 
       let response, status;
