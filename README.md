@@ -24,3 +24,17 @@
 - heroku container:push web --app test-rebel-backend
 - heroku container:release web --app test-rebel-backend
 - URL - https://test-rebel-backend.herokuapp.com/
+
+# FRONTEND DEVELOPMENT
+
+## Run Application Local
+
+- npm install
+- npm run start
+
+## Netlify deployment
+
+- Build CMD - CI = npm run build
+- Base directory - frontend
+- Publish Directory - frontend/build/
+- URL - https://aquamarine-sawine-52d1c6.netlify.app/
